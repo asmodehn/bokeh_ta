@@ -5,10 +5,13 @@ verify_ssl = true
 
 [dev-packages]
 pandas-ta = "*"
+yfinance = "*"
+ipykernel = "*"
 
 [packages]
 bokeh = "*"
 pandas = "*"
+bokeh-ta = {editable = true, path = "."}
 
 [requires]
 python_version = "3.8"
